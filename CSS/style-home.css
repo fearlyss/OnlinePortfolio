@@ -1,0 +1,129 @@
+
+
+.nav-item {
+    padding: 0 10px 0 0;
+
+}
+
+.navBarLink {
+    margin: 0px 50px 1px 0px;
+   padding: 10px 10px 10px 10px;
+    color: #ad4836;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+}
+.navbar-nav {
+margin: 10px 0 0 0;
+}
+
+    
+.navbar-nav a:hover {
+    background-color:#f1906f;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px #352208;
+    opacity: 0.9;
+    color: white;
+    
+    }
+    .container-lg {
+        background-image:linear-gradient(#9c7e59,#e1bb80,#9c7e59); 
+        height: 500px;
+
+       margin: 20px 0 0 0;
+    }
+
+
+    .mainHeader {
+        display: flex;
+         height: 0px;
+         width: 0px;
+         margin: 50px 0px 0px 0px;
+    
+       
+    }
+    .mainHeader img {
+        float: left;
+        display: flex;
+        height: 300px;
+        width: 300px;
+        border: 1px;
+        margin: 0px 0px 100px 225px;
+        position: absolute;
+        left: 200px;
+        top: 200px;
+        background-image:#e8c9ab; 
+    }
+
+    
+/*Vertical Sliding*/
+.slidingVertical{
+	display: inline;
+	text-indent: 8px;
+}
+.slidingVertical span{
+	animation: topToBottom 12.5s linear infinite 0s;
+	-ms-animation: topToBottom 12.5s linear infinite 0s;
+	-webkit-animation: topToBottom 12.5s linear infinite 0s;
+	color: white;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    margin: 200px 0px 0px 720px;
+    font-family: 'Thasadith', sans-serif; 
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.slidingVertical span:nth-child(2){
+	animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-webkit-animation-delay: 6s;
+}
+.slidingVertical span:nth-child(4){
+	animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+}
+
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateY(-50px); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateY(-50px); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateY(-50px); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+
+    
+    

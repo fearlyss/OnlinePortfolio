@@ -21,11 +21,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Rokkitt:wght@700&family=Tillana:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class = "navLogo"><img class = "navLogo" src="Images\Dames.png" alt="profile picture"></div> 
         <div class = "navBar">
             <ul>
                 <li><a href="Home.html" class ="navBarLink">Home</a></li> 
                 <li><a href="Contact.html" class ="navBarLink">Contact Me!</a></li>  
-               <li><a href="Projects.html" class ="navBarLink">Projects</a></li> 
+               <li><a href="Projects.html" class ="navBarLink">Projects</a></li>
+               <li><a href="Files\ADames - Resume2022.pdf" target = "blank">My Resume</a></li> 
                
             
             </ul>
@@ -33,7 +35,7 @@
             <h1>My Recent Projects</h1>
             
             <div class ="wrapperMain">
-                <div class ="box1">
+                <div class ="box1" onclick="openProject1()">
                    
                 </div> 
                
@@ -89,5 +91,14 @@
 
             
         </div>
+
+        <script>
+            const box = document.getElementById("box1");
+            box.addEventListener("click", openProject1);
+
+            function openProject1() {
+                window.open("https://play.google.com/store/apps/details?id=csci3660.game.memorygame");
+            }
+        </script>
     </body>
 </html>

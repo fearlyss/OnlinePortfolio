@@ -24,7 +24,24 @@
       crossorigin="anonymous"
     ></script>
     <style>
-     
+     .navLogo {
+    height: 0px;
+    width: 0px;
+}
+
+
+img.navLogo {
+    margin: 15px 0 0 15px;
+    height: 36px;
+    width: 36px;
+    image-resolution: 900dpi;
+    object-fit: cover;
+    transform: scale(1.45);
+    border-radius: 50%;
+    box-shadow: 0 2px 2px grey;
+    
+}
+
         .nav-link{
 color: #ffffffd8;
 transition: all 0.2s ease-in-out;
@@ -68,7 +85,7 @@ font-weight: bolder;
 font-size: 50px;
       }
 
-      img {
+      img.contact {
           height:  2%;
           width: 2%;
 margin: 0px 0px 15px 5px;
@@ -140,6 +157,8 @@ display: inline-block;
     </style>
   </head>
   <body>
+    <div class = "navLogo"><img class = "navLogo" src="Images\Dames.png" alt="profile picture"></div> 
+
     <nav class="navbar justify-content-center">
       <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -151,13 +170,17 @@ display: inline-block;
         <li class="nav-item">
           <a class="nav-link" href="Projects.html">Projects</a>
         </li>
+
+        <li class = "nav-item">
+          <a class = "nav-link" href="Files\ADames - Resume2022.pdf" target = "blank">My Resume</a>
+        </li>
         
       </ul>
     </nav>
     <div class="modal-header">
         
     <h1 style="color: white;" ;>Contact Me</h1>
-    <img src="Images\contact.png"> 
+    <img class = "contact" src="Images\contact.png" alt="Contact Image"> 
 </div>
 <div class = "formImg">
 <img class = "contactGraphic" src= "Images\ContactPicture.webp">
