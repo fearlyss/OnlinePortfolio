@@ -244,10 +244,9 @@ margin: 0 0 0 370px;
   }
 
   @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3){ 
 .mainHeader img {
     margin: 0px 0px 100px 100px; 
 }
