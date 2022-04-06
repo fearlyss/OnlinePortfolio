@@ -22,7 +22,7 @@ margin: 10px 0 0 0;
 
     
 .navbar-nav a:hover {
-    background-color:#f1906f;
+    background-color:#ffa69e;
     border-radius: 50%;
     box-shadow: 0 5px 15px #352208;
     opacity: 0.9;
@@ -48,8 +48,8 @@ margin: 10px 0 0 0;
     .mainHeader img {
         float: left;
         display: flex;
-        height: 300px;
-        width: 300px;
+        height: 0px;
+        width: 0px;
         border: 1px;
         margin: 0px 0px 100px 225px;
         position: absolute;
@@ -57,73 +57,53 @@ margin: 10px 0 0 0;
         top: 200px;
         background-image:#e8c9ab; 
     }
+    .carousel-inner {
+        width: 1300px;
+        display: inline-flexbox;
+        
+    }
+
+    .mainImg {
+       height: 400px;
+       width: 400px;
+       margin: 0 0 0 520px;
+      position: sticky;
+    }
 
     
 /*Vertical Sliding*/
-.slidingVertical{
-	display: inline;
+.carouselSlide{
+   margin: 20px 0 0 0;
+	display: inline-flexbox;
 	text-indent: 8px;
+    background-image:linear-gradient(#fbb1bd,#e1bb80,#8f2d56); 
 }
-.slidingVertical span{
-	animation: topToBottom 12.5s linear infinite 0s;
-	-ms-animation: topToBottom 12.5s linear infinite 0s;
-	-webkit-animation: topToBottom 12.5s linear infinite 0s;
-	color: white;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-    margin: 200px 0px 0px 720px;
+.d-md-block {
+    margin: 0 0 20px 520px;
+    width: 200%;
     font-family: 'Thasadith', sans-serif; 
-    font-size: 250%;
+    font-size: 190%;
     font-weight: bold;
+    color: white;
+    overflow:visible;
+   position: static;
+}
+#triangle {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid white;
+	border-bottom: 25px solid transparent;
+    display: inline-flex;
+  overflow: visible;
+    margin: 0px 100px 0px 80px;
+    padding: 0 0 0 10px;
+    position: relative;
+    transform: translateY(200px) translateX(100px);
 }
 
-.slidingVertical span:nth-child(2){
-	animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	-webkit-animation-delay: 3s;
-}
-.slidingVertical span:nth-child(3){
-	animation-delay: 6s;
-	-ms-animation-delay: 6s;
-	-webkit-animation-delay: 6s;
-}
-.slidingVertical span:nth-child(4){
-	animation-delay: 9s;
-	-ms-animation-delay: 9s;
-	-webkit-animation-delay: 9s;
-}
+#triangle:hover {
+border-right: 50px solid #f9564f;
+transform:scaleX(3, 1);
 
-
-/*topToBottom Animation*/
-@-moz-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -moz-transform: translateY(-50px); }
-	10% { opacity: 1; -moz-transform: translateY(0px); }
-	25% { opacity: 1; -moz-transform: translateY(0px); }
-	30% { opacity: 0; -moz-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
 }
-@-webkit-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -webkit-transform: translateY(-50px); }
-	10% { opacity: 1; -webkit-transform: translateY(0px); }
-	25% { opacity: 1; -webkit-transform: translateY(0px); }
-	30% { opacity: 0; -webkit-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
-}
-@-ms-keyframes topToBottom{
-	0% { opacity: 0; }
-	5% { opacity: 0; -ms-transform: translateY(-50px); }
-	10% { opacity: 1; -ms-transform: translateY(0px); }
-	25% { opacity: 1; -ms-transform: translateY(0px); }
-	30% { opacity: 0; -ms-transform: translateY(50px); }
-	80% { opacity: 0; }
-	100% { opacity: 0; }
-}
-
-
-    
-    
