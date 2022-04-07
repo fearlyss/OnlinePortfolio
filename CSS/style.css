@@ -231,6 +231,7 @@ a:hover{
 height: 50px;
 width: 50px;
 margin: 0 0 0 370px;
+transform: translateY(40px);
 }
   .footer {
     margin: 0 0 0 0;
