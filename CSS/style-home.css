@@ -98,7 +98,7 @@ h2 {
     font-weight: bolder;
     font-size: 350%;
     position: relative;
-    margin: 20px 0 0 0px;
+    margin: 10px 0 0 0px;
     color: black;
     font-family: 'Overpass', sans-serif;
 font-family: 'Thasadith', sans-serif;
@@ -136,14 +136,19 @@ a:hover{
   border: none;
 }
 
-.Skills {
-height: 50px;
-width: 50px;
-margin: 0 0 0 370px;
-transform: translateY(40px);
+
+#Skills {
+height: 0px;
+width: 0px;
+margin: 20px 0 0 0;
+transform: translateX(-75px);
+
 }
 
-
+.container-fluid {
+    transform: translateX(500px);
+    margin: 50px 0 0 0;
+}
 .footer {
   margin: 0 0 0 0;
   text-align: center;
