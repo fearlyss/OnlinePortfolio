@@ -1,5 +1,4 @@
 
-
 .nav-item {
     padding: 0 10px 0 0;
 
@@ -77,6 +76,8 @@ margin: 10px 0 0 0;
 	display: inline-flexbox;
 	text-indent: 8px;
     background-image:linear-gradient(#fbb1bd,#e1bb80,#8f2d56); 
+    height: 450px;
+    overflow: hidden;
 }
 .d-md-block {
     margin: 0 0 20px 520px;
@@ -87,23 +88,69 @@ margin: 10px 0 0 0;
     color: white;
     overflow:visible;
    position: static;
+   transform: translateX(50px);
 }
-#triangle {
-	width: 0;
-	height: 0;
-	border-top: 25px solid transparent;
-	border-right: 50px solid white;
-	border-bottom: 25px solid transparent;
-    display: inline-flex;
-  overflow: visible;
-    margin: 0px 100px 0px 80px;
-    padding: 0 0 0 10px;
+
+h2 {
+
+    display: inline;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 350%;
     position: relative;
-    transform: translateY(200px) translateX(100px);
+    margin: 20px 0 0 0px;
+    color: black;
+    font-family: 'Overpass', sans-serif;
+font-family: 'Thasadith', sans-serif;
+text-decoration: underline #ad4836;
+transform: translateX(400px);
+  }
+
+  
+  p {
+    
+    color: black;
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
+    margin: 40px 400px 100px 400px;
+    
 }
 
-#triangle:hover {
-border-right: 50px solid #f9564f;
-transform:scaleX(3, 1);
+.FacebookBT, .LinkedInBT, .GitBT {
+   width: 55px;
+   height: 40px;
+   border:rgba(112, 137, 153, 0.301);
+   opacity: 0.8;
+   margin: 0 0 5px 0;
+  
+}
 
+.FacebookBT:hover, .LinkedInBT:hover, .GitBT:hover {
+  box-shadow: 0 0px 5px 0 #3e9bfd, 0 0px 5px 0 #3e9bfd;
+
+}
+
+a:hover{
+  box-shadow: 0 0px 5px 0 #436b95;
+  border: none;
+}
+
+.Skills {
+height: 50px;
+width: 50px;
+margin: 0 0 0 370px;
+transform: translateY(40px);
+}
+
+
+.footer {
+  margin: 0 0 0 0;
+  text-align: center;
+  width: 0%;
+  position: sticky;
+  bottom: 0;
+  height: 50px;
+  display: inline-flexbox;
+  
 }

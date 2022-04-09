@@ -9,7 +9,7 @@ triFunction.addEventListener("mouseenter", function ( event ) {
     
     // This handler will be executed every time the cursor
     // is moved over a different list item
-    triFunction.addEventListener("mouseover", function( event ) {
+    triangle.addEventListener("mouseover", function( event ) {
       // highlight the mouseover target
       event.target.style.color = "orange";
     
