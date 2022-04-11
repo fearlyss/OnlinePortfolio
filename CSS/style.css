@@ -26,12 +26,13 @@ li {
     text-align: center;
     float: right;
     font-weight: bolder;
+    
 
 }
 .navBarLink {
     margin: 0px 20px 1px 0px;
    padding: 10px 10px 10px 10px;
-    color: #ad4836;
+   color: #ad4836;
     text-decoration: none;
     font-size: 15px;
   
@@ -50,7 +51,7 @@ font-family: 'Thasadith', sans-serif;
 }
 
 .navBar a:hover {
-background-color:#f1906f;
+    background-color:#ffa69e;
 border-radius: 50%;
 box-shadow: 5px 5px 15px #352208;
 opacity: 0.9;
@@ -58,8 +59,12 @@ color: white;
 
 }
 
+.myResume a:hover {
+    color: white;
+}
+
 .mainHeaderSection {
-    background-image:linear-gradient(#9c7e59,#e1bb80,#9c7e59); 
+    background-image:linear-gradient(#fbb1bd,#e1bb80,#8f2d56); 
     height: 500px;
     width: 100%;
    display: inline-block;
@@ -230,8 +235,8 @@ a:hover{
 .Skills {
 height: 50px;
 width: 50px;
-margin: 0 0 0 370px;
-transform: translateY(40px);
+margin: 0 0 0 0px;
+transform: translateY(40px) translateX(350px);
 }
   .footer {
     margin: 0 0 0 0;
@@ -253,6 +258,7 @@ transform: translateY(40px);
 }
  .Skills {
      margin: 200px 0 0 0;
+     padding-left: 50px;
  }
 
 }
