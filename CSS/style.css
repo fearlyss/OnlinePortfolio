@@ -29,6 +29,8 @@ li {
     
 
 }
+
+
 .navBarLink {
     margin: 0px 20px 1px 0px;
    padding: 10px 10px 10px 10px;
@@ -59,6 +61,7 @@ color: white;
 
 }
 
+
 .myResume a:hover {
     color: white;
 }
@@ -87,10 +90,11 @@ color: white;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
-    margin: 200px 0px 0px 720px;
+    margin: 200px 0px 0px 0px;
     font-family: 'Thasadith', sans-serif; 
     font-size: 250%;
     font-weight: bold;
+    padding: 0px 0px 0px 20px;
    
     
 }
@@ -155,8 +159,8 @@ color: white;
 .mainHeader img {
     float: left;
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border: 1px;
     margin: 0px 0px 100px 225px;
     position: absolute;
@@ -165,6 +169,10 @@ color: white;
     background-image:#e8c9ab; 
 }
 
+.mainImg {
+    height: 200px;
+    width: 200px;
+}
 
 .mainIntro {
     height: 50px;
@@ -184,13 +192,14 @@ text-decoration: underline #ad4836;
 width: 60px;
 height: 100px;
 
+
   }
 
   .aboutMe {
       float: center;
       text-align: center;
       padding: 40px 0 50px 0;
-     
+     margin: 200px 0 0 0;
      
       
   }
@@ -258,7 +267,41 @@ transform: translateY(40px) translateX(350px);
 }
  .Skills {
      margin: 200px 0 0 0;
+     
      padding-left: 50px;
  }
 
 }
+.box1 {
+    height: 2000px;
+    width: 550px;
+    background-color: #432818;
+    transform: translateX(200px) translateY(200px) scale(150%);
+    box-shadow: black 0 0px 20px 0;
+}
+
+.box2 {
+    background-color: #99582a;
+height: 2000px;
+width: 550px;
+transform: translateX(800px) scale(150%);
+box-shadow: #432818 0 0 20px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=".mainBio"] {
+      width: 100%;
+      columns: 1;
+      margin-bottom: 200px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="img.SkillsImg"] {
+        transform: translateY(200px);
+    }
+
