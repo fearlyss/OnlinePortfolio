@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
     <link rel ="stylesheet" href="CSS\style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,46 +15,42 @@
 <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Overpass:wght@265;300&family=Thasadith:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class = "navLogo"><img class = "navLogo" src="Images\Dames.png" alt="profile picture"></div> 
+    <div class = "navLogo"><img class = "navLogo" src="Images\Dames.png" alt="profile picture"></div> 
 
     <div class = "navBar">
 <ul>
     <li><a href="Home.html" class ="navBarLink">Home</a></li> 
     <li><a href="Contact.html" class ="navBarLink">Contact Me!</a></li>  
    <li><a href="Projects.html" class ="navBarLink">Projects</a></li> 
-  <li><a href="Files\ADames - Resume2022.pdf" class="myResume"target = "_blank" style="padding: 2px 2px 2px 2px; color: #ad4836; text-decoration: none;" >My Resume</a></li>
+  <li><a href="Files\ADames - Resume2022.pdf" class="myResume" target = "_blank" style="padding: 8px 8px 8px 8px; color: #ad4836; text-decoration: none;" onmouseover="this.style.color='white'"
+    onmouseout="this.style.color='#ad4836'">My Resume</a></li>
 
 </ul>
 </div>
 
+</body>
 
-
-   
-
-
-       
+</html>
 
 <div class = "box1">
-  <div class = "mainImg">
-      <img src="Images\AlyssaBitmoji.png" alt="profile picture" style = "height: 275px; width: 275px; transform: translateX(-80px) translateY(70px); box-shadow: white 0 0 20px 0; border-radius: 65%;">
-      </div>
+    <div class = "mainImg">
+        <img src="Images\AlyssaBitmoji.png" alt="profile picture" style = "height: 275px; width: 275px; transform: translateX(-80px) translateY(70px); box-shadow: white 0 0 20px 0; border-radius: 65%;">
+        </div>
 </div>
 <div class = "box2">
 
-  <div class="slidingVertical" style="padding-left: 20px;">
-      <span>Welcome to my online portfolio.</span>
-      <span>My name is Alyssa Dames.</span>
-      <span>I am a front-end engineer.</span>
-      <span>Feel free to contact me with any questions.</span>
-     
-    </div>
+    <div class="slidingVertical" style="padding-left: 20px;">
+        <span>Welcome to my online portfolio.</span>
+        <span>My name is Alyssa Dames.</span>
+        <span>I am a front-end engineer.</span>
+        <span>Feel free to contact me with any questions.</span>
+       
+      </div>
 </div>
 
 
 
-
-<div class = 'mainBio'>
-    <div class="aboutMe">
+<div class = 'flexbox-Main'>
      
       <div class ='Heading1'>
 
@@ -83,16 +80,16 @@
           <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
         </svg>
 
-        <h2> My Skills </h2>
+        <h2 > My Skills </h2>
          
         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
           <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
         </svg>
          
-    </div>
-<div class = 'Skills'>
-<img id = 'SkillsImg' src="Images\skills.svg">
-</div>
+    
+
+<img src="Images\skills.svg" class="SkillsImg">
+
 
 
 </div>
@@ -120,8 +117,3 @@
 
 
 </div>
-
-
-</body>
-
-</html>
