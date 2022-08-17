@@ -97,6 +97,7 @@ color: white;
     margin: 40px 5px 15px 50px;
     position: static;
     float: center;
+    justify-content: center;
     caption-side: bottom;
 }
 
