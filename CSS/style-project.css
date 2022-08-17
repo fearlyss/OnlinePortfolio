@@ -88,7 +88,7 @@ color: white;
     
     height: 150px;
     width: 150px;
-    display: inline-flex;
+    display: inherit;
     background-size: 100%;
     background-image:url('/Images/Dames.png');
     background-size: 180px;
